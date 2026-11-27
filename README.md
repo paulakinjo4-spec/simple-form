@@ -70,4 +70,16 @@ Latest commit:
 f2eb9f8 - Add phone number field to contact form
 
 Result:
-The Git history displays the previous changes and their commit IDs.
+The Git history displays the previous changes and their commit IDs
+## Restoring a Previous Version of the Form
+
+### Objective
+Restore form.html to an earlier working version using Git.
+
+### Command Used
+git checkout c838b30 -- simple-form/form.html
+
+### Result
+The phone number field was removed, and the original form was restored successfully.
+
+This demonstrates how Git can recover an earlier version of a file without deleting the project's commit history.
