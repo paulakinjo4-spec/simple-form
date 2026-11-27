@@ -57,3 +57,17 @@ Add a phone number field to the contact form.
 
 ### Result
 The contact form now collects the user's name, email address, phone number and message.
+## Viewing Git History
+
+Command used:
+
+git log --oneline
+
+Purpose:
+To view the project's commit history in a short format.
+
+Latest commit:
+f2eb9f8 - Add phone number field to contact form
+
+Result:
+The Git history displays the previous changes and their commit IDs.
