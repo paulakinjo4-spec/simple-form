@@ -20,10 +20,26 @@
 
             <label for="message">Message</label>
             <textarea id="message" placeholder="Write your message" required></textarea>
-
+<div class="captcha">
+    <label for="captcha">What is 5 + 3?</label>
+    <input type="number" id="captcha" name="captcha"
+           placeholder="Enter your answer" required>
+</div>
             <button type="submit">Send Message</button>
-        </form>
+        <form id="contactForm"></form>
     </div>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    const answer = document.getElementById("captcha").value;
 
+    if (Number(answer) !== 8) {
+        event.preventDefault();
+        alert("Incorrect answer. Please try again.");
+    } else {
+        event.preventDefault();
+        alert("Correct answer! CAPTCHA verification successful.");
+    }
+});
+</script>
 </body>
 </html>

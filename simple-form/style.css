@@ -18,3 +18,13 @@ button {
     border: none;
     cursor: pointer;
 }
+.captcha {
+    margin-top: 15px;
+}
+
+.captcha input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
