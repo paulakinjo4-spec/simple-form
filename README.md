@@ -44,3 +44,16 @@ git commit -m "Fix simple-form folder submodule issue"
 The simple-form folder is now tracked as a normal directory containing form.html and style.css.
 
 Commit: c838b30
+## Adding a Phone Number Field
+
+### Objective
+Add a phone number field to the contact form.
+
+### Changes Made
+- Added a Phone Number label.
+- Added an input field using type="tel".
+- Made the phone number field required.
+- Confirmed that the field displays correctly in the browser.
+
+### Result
+The contact form now collects the user's name, email address, phone number and message.
